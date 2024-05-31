@@ -2,7 +2,7 @@
 const express = require('express');
 const app = express();
 
-app.get('/api/timestamp/:dateString?', (req, res) => {
+app.get('/api/:dateString?', (req, res) => {
     let dateString = req.params.dateString;
     
     // If dateString is undefined, use the current date

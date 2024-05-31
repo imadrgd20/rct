@@ -3,7 +3,7 @@ import './App.css';
 import { useEffect, useState } from 'react';
 
 function App() {
-  const baseUrl = 'https://8080-imadrgd20-rct-xzx8dlzkkve.ws-eu114.gitpod.io/api/timestamp/';
+  const baseUrl = 'https://8080-imadrgd20-rct-xzx8dlzkkve.ws-eu114.gitpod.io/api/';
 
   const [dateData, setDateData] = useState(() => {
     const d = new Date();
